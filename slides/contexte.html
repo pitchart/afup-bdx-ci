@@ -1,0 +1,89 @@
+<section>
+    <h1>Contexte</h1>
+</section>
+<section>
+    <h2 class="vam"><img src="resources/img/pitchart-bigger.jpg" alt="" class="vam inline logo"> <span class="vam">Julien VITTE</span></h2>
+    <p class=" vam">
+        <img src="resources/img/twitter.svg" alt="Twitter" width="40" height="40" class="vam inline">
+        <a href="https://twitter.com/pitchart" class="mhs tw-color">@pitchart</a>
+    </p>
+    <p>
+        <span class="php-color">#PHP</span>
+        <span class=""> -
+        <span class="sf-color">#symfony</span>
+    </span>
+        <span class=""> -
+        <span class="t3-color">#TYPO3</span>
+    </span>
+    </p>
+    <aside class="notes">
+        <ul>
+            <li>Arrivée après 6 mois existance du service</li>
+            <li>Différence environnement de développement</li>
+            <li>- Novice en utilisation des tests</li>
+            <li>- Aucune expérience pratique en intégration continue</li>
+            <li>+ Automatisation de process</li>
+        </ul>
+    </aside>
+</section>
+<section>
+    <h2>L'existant</h2>
+    <div class="table">
+        <div class="table__row">
+            <div class="table__cell phs prm fragment">
+                <img src="resources/img/windows-logo.png" alt="" width="150"  class="inline"><br>
+                <img src="resources/img/logo-mac.png" alt="" width="100" class="inline">
+                <img src="resources/img/linux.png" alt="" width="100" class="inline fragment">
+            </div>
+            <div class="table__cell vam prm fragment">
+                <img src="resources/img/gitlab.png" alt="" width="200" class="inline"> <br>
+                <img src="resources/img/docker.jpg" alt="" width="200" class="inline fragment">
+            </div>
+            <div class="table__cell vam prm fragment">
+                <img src="resources/img/capistrano.png" alt="" width="200" class="inline"> <br>
+                <img src="resources/img/capifony.png" alt="" width="200" class="inline" >
+            </div>
+            <div class="table__cell vam fragment">
+                <img src="resources/img/server.png" alt="" width="120" class="inline"> <br>
+                <img src="resources/img/phpdoc.png" alt="" width="120" class="inline" >
+            </div>
+        </div>
+    </div>
+    <aside class="notes">
+        <ul>
+            <li>Environnement de développement hétérogène</li>
+            <li>Gitlab + CI (Runners Docker PHP)</li>
+            <li>Serveurs mutualisés (intégration / validation)</li>
+            <li>Capistrano + capifony</li>
+            <li>Serveur de documentation</li>
+        </ul>
+    </aside>
+</section>
+<section>
+    <h2>Avantages</h2>
+    <ul>
+        <li>Gitlab + CI</li>
+        <li>Plusieurs versions de PHP disponibles 5.6 -> 7.1</li>
+        <li>Multiples pipelines (branche / version / steps)</li>
+        <li>Multiples tâches (test / deploy / static analysis / doc)</li>
+    </ul>
+</section>
+<section>
+    <h2>Inconvénients</h2>
+    <ul>
+        <li>Environnements d'exécution hétérogènes</li>
+        <li>Faux positifs ou erreurs liées uniquement à la CI</li>
+        <li>Conflits de versions PHP</li>
+        <li>Gestion des fixtures (SQL)</li>
+        <li>Assets</li>
+    </ul>
+</section>
+<section>
+    <h2>Ressentis</h2>
+    <ul>
+        <li>Feedback lent</li>
+        <li>Goulots d'étranglement au sein de l'équipe (compétences non mutualisées)</li>
+        <li>Temps de première contribution long (besoin d'un validateur)</li>
+        <li>Adhésion limitée (manque de confiance dans les résultats de CI)</li>
+    </ul>
+</section>
